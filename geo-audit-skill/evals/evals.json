@@ -1,0 +1,26 @@
+{
+  "skill_name": "geo-audit",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "saas-startup-standard-audit",
+      "prompt": "Run a standard-depth GEO audit for a SaaS startup. Organization: DataFlow AI (www.dataflowai.com), Industry: Data Pipeline Automation, Market: North America, Competitors: Fivetran, Stitch Data, Apache Airflow. I need the full 6-phase audit with competitive benchmarking and a 6-month roadmap.",
+      "expected_output": "Comprehensive GEO audit report (markdown) with GEO score 40-65 range (typical for startup), interactive dashboard, top 10 findings, 20+ quick wins, competitive matrix vs Fivetran/Stitch, 6-month roadmap with phases",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "consulting-firm-quick-audit",
+      "prompt": "Run a quick-depth GEO audit for McKinsey (www.mckinsey.com). Industry: Management Consulting, Market: Global, Competitors: BCG, Bain, Deloitte. Focus on their brand visibility in AI systems. Quick audit means 1 hour, 4 phases max, top 5 findings.",
+      "expected_output": "Lightweight GEO audit report with GEO score (expected 80+), simplified dashboard, top 5 findings only, 10 quick wins, skip competitive deep-dive, estimated 1-hour effort",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "academic-researcher-deep-audit",
+      "prompt": "Run a deep-depth GEO audit for an academic researcher. Organization: Dr. Sarah Chen (research in quantum computing), Website: sarahchenresearch.edu, Industry: Academic Research, Market: Global academic community, Competitors: Other quantum computing researchers at MIT, Stanford, Caltech. Deep audit with publication analysis, knowledge graph assessment, and research visibility strategy.",
+      "expected_output": "Comprehensive academic-focused GEO audit, likely lower score (30-50) due to academic niche, dashboard, 10+ findings, 20+ quick wins including ResearchGate/Scholar optimization, competitive matrix vs peer researchers, detailed knowledge graph roadmap, publication strategy",
+      "files": []
+    }
+  ]
+}
